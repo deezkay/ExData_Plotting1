@@ -1,4 +1,5 @@
 # read data file
+# assumes data file has been download and stored in working directory
 data <- read.table("household_power_consumption.txt", header=TRUE, sep=";")
 
 # format date and filter to 2 days required
